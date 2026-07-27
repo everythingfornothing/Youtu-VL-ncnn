@@ -1,5 +1,7 @@
 # Youtu-VL-ncnn
 
+本项目为腾讯犀牛鸟课题成果。
+
 Youtu-VL-ncnn 是
 [`tencent/Youtu-VL-4B-Instruct`](https://huggingface.co/tencent/Youtu-VL-4B-Instruct)
 的 pnnx/ncnn C++ CPU 推理实现。程序直接接收图片和 Prompt，由 C++ 完成
