@@ -1,0 +1,46 @@
+/build/
+/out/
+/.cache/
+/.idea/
+/.vscode/
+
+# Archived platform environments and full validation outputs are release
+# artifacts, not source-repository content.
+/linux-test/build/
+/linux-test/results/
+/windows-test/build/
+/windows-test/results/
+/windows-test/toolchain/
+/windows-test/ncnn-20260526/
+/windows-test/ncnn-20260526.zip
+/windows-test/ncnn-build/
+/windows-test/ncnn-install/
+/windows-test/persistent-fixture/
+/windows-test/msys2-base-*.exe
+
+# Model weights and generated tensors are distributed separately.
+/models/artifacts/
+/models/models/
+/models/*.npy
+*.ncnn.bin
+*.pnnx.bin
+*.pt
+*.pth
+*.safetensors
+*.npy
+
+# Python caches and local environments.
+__pycache__/
+*.py[cod]
+.venv/
+.conda/
+
+# Platform build products.
+*.exe
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+*.lib
+*.a

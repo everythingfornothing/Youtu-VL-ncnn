@@ -1,0 +1,17 @@
+# Relative files required by the current runtime. SHA-256 values are added by the
+# release packaging job; model binaries are not committed to Git.
+artifacts/vision_embedding/vision_embedding_wrapper.ncnn.param
+artifacts/vision_embedding/vision_embedding_wrapper.ncnn.bin
+artifacts/vision_post_layernorm/vision_post_layernorm_wrapper.ncnn.param
+artifacts/vision_post_layernorm/vision_post_layernorm_wrapper.ncnn.bin
+artifacts/text_embedding/embed_tokens_weight.npy
+artifacts/llm_rope_inv_freq.npy
+models/youtu_merger.ncnn.param
+models/youtu_merger.ncnn.bin
+
+# Generated ranges:
+# artifacts/vision_layer{0..26}_masked_core/vision_layer{N}_masked_core_wrapper.ncnn.{param,bin}
+# artifacts/llm_layer{0..39}_three_part/part_{a,b,c}_*/part_*.ncnn.{param,bin}
+# artifacts/llm_final_head_ncnn/final_norm/final_norm.ncnn.{param,bin}
+# artifacts/llm_final_head_ncnn/lm_head_shard_{00..16}/lm_head_shard_{NN}.ncnn.{param,bin}
+tokenizer/tokenizer.bin
