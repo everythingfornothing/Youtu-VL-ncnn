@@ -8,6 +8,9 @@ Youtu-VL-ncnn 是
 图片 Processor、Chat Template、ByteLevel-BPE 编解码和生成循环，由 ncnn
 执行模型计算。
 
+完整的迁移思路、模块拆分、数值验证、跨平台测试与性能优化过程见：
+[《从 PyTorch 到 ncnn/C++：Youtu-VL-4B 的端侧迁移与 AI 辅助工程方法》](https://github.com/Tencent/ncnn/discussions/6871)。
+
 ```text
 image + prompt
   -> C++ image decode / resize / normalize / patchify
